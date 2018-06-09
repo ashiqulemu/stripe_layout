@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Pacifico', cursive; }
+
+.effect {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
+  transform: skewY(-8deg) translateY(-111px); }
+  .effect .block {
+    float: left; }
+  .effect .block:nth-child(1) {
+    width: 34%;
+    background: #5335ff;
+    height: 185px; }
+  .effect .block:nth-child(2) {
+    width: 33%;
+    background: #4259ff;
+    height: 185px; }
+  .effect .block:nth-child(3) {
+    width: 33%;
+    background: #10c0ff;
+    height: 185px; }
+  .effect .block:nth-child(4) {
+    width: 33%;
+    background: linear-gradient(to right, #7ff5d8, #66efe0);
+    height: 185px;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  .effect .block:nth-child(5) {
+    width: 33%;
+    background: linear-gradient(76deg, #425aff, #58fbff);
+    height: 185px;
+    position: absolute;
+    bottom: 0; }
+
+.stripe_success {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  background: #3ECF8E;
+  border: 0;
+  padding: 0 14px;
+  font-size: 15pxfont;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  transition: 0.15s;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .stripe_success:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
+
+.intro_banner {
+  height: 100vh;
+  width: 100%;
+  position: relative; }
+  .intro_banner .inner_content {
+    position: relative;
+    padding: 50px 50px;
+    color: #eee; }
+    .intro_banner .inner_content p {
+      background: #0808081a;
+      margin: 5px;
+      border-radius: 50px;
+      padding: 4px; }
+
+/*# sourceMappingURL=style.css.map */
